@@ -1,7 +1,8 @@
+prune *
+graft lumin
 include LICENSE
 include README.md
-
 recursive-include tests *
-recursive-exclude * __pycache__
-recursive-exclude * *.py[co]
 include *.txt *.md
+
+global-exclude __pycache__ *.py[cod] .*
