@@ -1,8 +1,10 @@
 prune *
 graft lumin
+
 include LICENSE
 include README.md
-recursive-include tests *
-include *.txt *.md
+include requirements.txt
+include CHANGES.md
+include CITATION.md
 
 global-exclude __pycache__ *.py[cod] .*
