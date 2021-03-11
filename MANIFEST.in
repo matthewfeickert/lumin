@@ -2,8 +2,9 @@ prune *
 graft lumin
 
 include LICENSE
-include README.md
 include requirements.txt
+exclude *.md
+include README.md
 include CHANGES.md
 include CITATION.md
 
